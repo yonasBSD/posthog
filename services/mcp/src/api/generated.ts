@@ -40277,6 +40277,13 @@ export namespace Schemas {
       Webhook: 'webhook',
     } as const;
 
+    export type EnvironmentsSubscriptionsSummaryQuotaRetrieve200 = {
+      active_count: number;
+      /** @nullable */
+      limit: number | null;
+      at_limit: boolean;
+    };
+
     export type EnvironmentsUserProductListListParams = {
     /**
      * Number of results to return per page.
@@ -45075,6 +45082,13 @@ export namespace Schemas {
       Slack: 'slack',
       Webhook: 'webhook',
     } as const;
+
+    export type SubscriptionsSummaryQuotaRetrieve200 = {
+      active_count: number;
+      /** @nullable */
+      limit: number | null;
+      at_limit: boolean;
+    };
 
     export type SurveysListParams = {
     archived?: boolean;
