@@ -580,10 +580,18 @@ snapshots:
         hash: v1.k794b7964.529535e435c93c8f004cdba8f2ba29681dd679eb9bfbaff745a5f00c3b424ffd.2Kq3-2B9F2VNlkrFY-dge3vntnfrudonJ-Lle1s8m5E
     components-hogcharts-timeserieslinechart--basic--light:
         hash: v1.k794b7964.3a097fd7390b5a54fcf6e20a1769cc9058b66f4d040ed58748d0d4dc55c8788b.zqLqP936uYDq025ot6wQL3TxRVnq4UzQAtiS92DFZp8
+    components-hogcharts-timeserieslinechart--confidence-intervals--dark:
+        hash: v1.k794b7964.604addbe746f827ade2350d9167a72d9a7fbedfd96bd621a7af7994cd489c4c8.M3UGtYXBVSJzocWg4vxO3GwAXWveRgWHTGCql8iWjec
+    components-hogcharts-timeserieslinechart--confidence-intervals--light:
+        hash: v1.k794b7964.748b89470fc51d7943898d2c1b472c4a7c707251324be0d22e8fd8555e457afb.syed-39Rp1r--wavVUlzOaZ08JQ8kE1KgP4OCKvSrDw
     components-hogcharts-timeserieslinechart--date-axis--dark:
         hash: v1.k794b7964.5805c3a1a9848b678164dcb7f71f6e6df63feb0528585a035d46ca9494080129.e7jpy3cDRnVfLZFjsQcScQdz8mwwULxW5TsnWUE_Rq4
     components-hogcharts-timeserieslinechart--date-axis--light:
         hash: v1.k794b7964.7a2951f2481faf207966615e374818fb43d30ae3f16aeb2af836bc6955d80d77.WNimlXEb2nRgkA5J86byjnuJ3WUmvR_vb9glEJzoQJw
+    components-hogcharts-timeserieslinechart--moving-average--dark:
+        hash: v1.k794b7964.276935f8bb553e4ab9fac3ace6eebb3d28dfdf96cffe2e034fedb97e74ce37d0.5SBoJ3War_QIpdVFWyeow-y8o4S-qReI1UdVs9HO6Ik
+    components-hogcharts-timeserieslinechart--moving-average--light:
+        hash: v1.k794b7964.326fb129af77ff50842a525cabd6dc99bdda0184f67de96e57ad1c9a13be4ab3.e5Hz2jQlR4ZqIhUHnbbeFlfLsHNkw7_7_1JJqj1v2N0
     components-hogcharts-timeserieslinechart--y-axis-formats--dark:
         hash: v1.k794b7964.ab5470e4567b923b3414ddc27d0e40872a481d973df9e12d1765fbedff32c20d.JdA-hTR2nKp921x6JROPc0p43nBvLgWiXzJQRPLviMQ
     components-hogcharts-timeserieslinechart--y-axis-formats--light:
