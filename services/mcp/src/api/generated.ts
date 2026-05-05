@@ -20815,7 +20815,8 @@ export namespace Schemas {
     }
 
     /**
-     * * `apns` - Apple Push
+     * * `anthropic` - Anthropic
+    * `apns` - Apple Push
     * `azure-blob` - Azure Blob
     * `bing-ads` - Bing Ads
     * `clickup` - Clickup
@@ -20854,6 +20855,7 @@ export namespace Schemas {
 
 
     export const IntegrationKindEnum = {
+      Anthropic: 'anthropic',
       Apns: 'apns',
       AzureBlob: 'azure-blob',
       BingAds: 'bing-ads',
@@ -39823,7 +39825,8 @@ export namespace Schemas {
 
     export type EnvironmentsIntegrationsListParams = {
     /**
-     * * `apns` - Apple Push
+     * * `anthropic` - Anthropic
+    * `apns` - Apple Push
     * `azure-blob` - Azure Blob
     * `bing-ads` - Bing Ads
     * `clickup` - Clickup
@@ -39873,6 +39876,7 @@ export namespace Schemas {
 
 
     export const EnvironmentsIntegrationsListKind = {
+      Anthropic: 'anthropic',
       Apns: 'apns',
       AzureBlob: 'azure-blob',
       BingAds: 'bing-ads',
@@ -44432,7 +44436,8 @@ export namespace Schemas {
 
     export type IntegrationsListParams = {
     /**
-     * * `apns` - Apple Push
+     * * `anthropic` - Anthropic
+    * `apns` - Apple Push
     * `azure-blob` - Azure Blob
     * `bing-ads` - Bing Ads
     * `clickup` - Clickup
@@ -44482,6 +44487,7 @@ export namespace Schemas {
 
 
     export const IntegrationsListKind = {
+      Anthropic: 'anthropic',
       Apns: 'apns',
       AzureBlob: 'azure-blob',
       BingAds: 'bing-ads',
