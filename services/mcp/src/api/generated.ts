@@ -35842,6 +35842,21 @@ export namespace Schemas {
     }
 
     /**
+     * Filter shape mirrors the previous frontend `api.query({filters: ...})` payload.
+
+    `filters` accepts the same `HogQLFilters` schema that the legacy frontend HogQL
+    path used (dateRange, filterTestAccounts, properties), so the migration is
+    behaviour-preserving for callers that pass a request unchanged.
+     */
+    export interface SentimentGenerationsRequest {
+      filters?: unknown;
+    }
+
+    export interface SentimentGenerationsResponse {
+      results: unknown[][];
+    }
+
+    /**
      * * `trace` - trace
     * `generation` - generation
      */
@@ -35855,7 +35870,7 @@ export namespace Schemas {
 
     export interface SentimentRequest {
       /**
-       * Trace IDs or generation IDs to classify, depending on analysis_level.
+       * Trace IDs (analysis_level=trace) or generation event UUIDs (analysis_level=generation).
        * @minItems 1
        * @maxItems 5
        */
@@ -40899,6 +40914,10 @@ export namespace Schemas {
     export type LlmAnalyticsSentimentCreate400 = { [key: string]: unknown };
 
     export type LlmAnalyticsSentimentCreate500 = { [key: string]: unknown };
+
+    export type LlmAnalyticsSentimentGenerationsCreate400 = { [key: string]: unknown };
+
+    export type LlmAnalyticsSentimentGenerationsCreate500 = { [key: string]: unknown };
 
     export type LlmAnalyticsSummarizationCreate400 = { [key: string]: unknown };
 
