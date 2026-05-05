@@ -15573,6 +15573,18 @@ export namespace Schemas {
        * @nullable
        */
       project_rate_limit_bucket_size_minutes?: number | null;
+      /**
+       * Maximum number of exception events ingested per bucket for each individual issue. Null removes the limit.
+       * @minimum 1
+       * @nullable
+       */
+      per_issue_rate_limit_value?: number | null;
+      /**
+       * Bucket window over which the per-issue rate limit applies, in minutes.
+       * @minimum 1
+       * @nullable
+       */
+      per_issue_rate_limit_bucket_size_minutes?: number | null;
     }
 
     export type ErrorTrackingSimilarIssuesQueryKind = typeof ErrorTrackingSimilarIssuesQueryKind[keyof typeof ErrorTrackingSimilarIssuesQueryKind];
@@ -27446,6 +27458,18 @@ export namespace Schemas {
        * @nullable
        */
       project_rate_limit_bucket_size_minutes?: number | null;
+      /**
+       * Maximum number of exception events ingested per bucket for each individual issue. Null removes the limit.
+       * @minimum 1
+       * @nullable
+       */
+      per_issue_rate_limit_value?: number | null;
+      /**
+       * Bucket window over which the per-issue rate limit applies, in minutes.
+       * @minimum 1
+       * @nullable
+       */
+      per_issue_rate_limit_bucket_size_minutes?: number | null;
     }
 
     export interface PatchedErrorTrackingSpikeDetectionConfig {
