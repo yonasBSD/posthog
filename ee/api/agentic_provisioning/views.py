@@ -2093,12 +2093,15 @@ def _verify_hmac_if_present(request: Request) -> Response | None:
 
 ALLOWED_PROVISIONING_SCOPES = {
     "customer_journey:read",
+    "dashboard:write",
     "query:read",
     "conversation:read",
     "conversation:write",
     "experiment:read",
     "feature_flag:read",
     "insight:read",
+    "insight:write",
+    "llm_gateway:read",
     "organization:read",
     "person:read",
     "project:read",
